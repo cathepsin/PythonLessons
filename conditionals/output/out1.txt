@@ -1,0 +1,3 @@
+Received DNA sequence: AAAAAAAAAAAA
+Translated AA sequence: ZZZZ
+Protein mass: 536.8

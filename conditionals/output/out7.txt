@@ -1,0 +1,3 @@
+Received DNA sequence: CAABCACAAABABCABCA
+Translated AA sequence: FUFT
+Protein mass: 585.39
