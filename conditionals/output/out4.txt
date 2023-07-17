@@ -1,3 +1,0 @@
-Received DNA sequence: BCABCACAACAA
-Translated AA sequence: UUFF
-Protein mass: 662.78
