@@ -1,0 +1,8 @@
+using Hangman(6, seed=0)
+a
+m
+y
+n
+m
+e
+t

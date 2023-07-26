@@ -1,0 +1,13 @@
+using Hangman(4, seed=6)
+a
+b
+c
+e
+a
+b
+w
+q
+b
+l
+i
+p

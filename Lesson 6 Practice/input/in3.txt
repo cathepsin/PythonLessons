@@ -1,0 +1,7 @@
+using Hangman(6, seed=0)
+x
+z
+q
+b
+h
+l
