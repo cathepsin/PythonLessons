@@ -1,3 +1,4 @@
+using Hangman(4, seed=6)
 t
 v
 w
