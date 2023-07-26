@@ -1,0 +1,52 @@
+Let's play hangman! You get 6 wrong guesses
+My word is 5 characters long
+
+6 wrong guesses remaining
+Guesses: []
+_____
+What is your guess?
+a
+Looks like a is in my word!
+
+6 wrong guesses remaining
+Guesses: ['a']
+__a__
+What is your guess?
+m
+Looks like m is in my word!
+
+6 wrong guesses remaining
+Guesses: ['a', 'm']
+m_a__
+What is your guess?
+y
+Looks like y is in my word!
+
+6 wrong guesses remaining
+Guesses: ['a', 'm', 'y']
+m_a_y
+What is your guess?
+n
+n is not in my word!
+
+5 wrong guesses remaining
+Guesses: ['a', 'm', 'y', 'n']
+m_a_y
+What is your guess?
+m
+You already guessed m
+
+5 wrong guesses remaining
+Guesses: ['a', 'm', 'y', 'n']
+m_a_y
+What is your guess?
+e
+Looks like e is in my word!
+
+5 wrong guesses remaining
+Guesses: ['a', 'm', 'y', 'n', 'e']
+mea_y
+What is your guess?
+t
+Looks like t is in my word!
+You win!

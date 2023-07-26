@@ -1,0 +1,45 @@
+Let's play hangman! You get 6 wrong guesses
+My word is 5 characters long
+
+6 wrong guesses remaining
+Guesses: []
+_____
+What is your guess?
+x
+x is not in my word!
+
+5 wrong guesses remaining
+Guesses: ['x']
+_____
+What is your guess?
+z
+z is not in my word!
+
+4 wrong guesses remaining
+Guesses: ['x', 'z']
+_____
+What is your guess?
+q
+q is not in my word!
+
+3 wrong guesses remaining
+Guesses: ['x', 'z', 'q']
+_____
+What is your guess?
+b
+b is not in my word!
+
+2 wrong guesses remaining
+Guesses: ['x', 'z', 'q', 'b']
+_____
+What is your guess?
+h
+h is not in my word!
+
+1 wrong guesses remaining
+Guesses: ['x', 'z', 'q', 'b', 'h']
+_____
+What is your guess?
+l
+l is not in my word!
+You lose! My word was "meaty"

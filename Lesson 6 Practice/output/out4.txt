@@ -1,0 +1,87 @@
+Let's play hangman! You get 6 wrong guesses
+My word is 6 characters long
+
+6 wrong guesses remaining
+Guesses: []
+______
+What is your guess?
+a
+Looks like a is in my word!
+
+6 wrong guesses remaining
+Guesses: ['a']
+__a___
+What is your guess?
+b
+b is not in my word!
+
+5 wrong guesses remaining
+Guesses: ['a', 'b']
+__a___
+What is your guess?
+c
+c is not in my word!
+
+4 wrong guesses remaining
+Guesses: ['a', 'b', 'c']
+__a___
+What is your guess?
+e
+Looks like e is in my word!
+
+4 wrong guesses remaining
+Guesses: ['a', 'b', 'c', 'e']
+__a_e_
+What is your guess?
+a
+You already guessed a
+
+4 wrong guesses remaining
+Guesses: ['a', 'b', 'c', 'e']
+__a_e_
+What is your guess?
+b
+You already guessed b
+
+4 wrong guesses remaining
+Guesses: ['a', 'b', 'c', 'e']
+__a_e_
+What is your guess?
+w
+w is not in my word!
+
+3 wrong guesses remaining
+Guesses: ['a', 'b', 'c', 'e', 'w']
+__a_e_
+What is your guess?
+q
+q is not in my word!
+
+2 wrong guesses remaining
+Guesses: ['a', 'b', 'c', 'e', 'w', 'q']
+__a_e_
+What is your guess?
+b
+You already guessed b
+
+2 wrong guesses remaining
+Guesses: ['a', 'b', 'c', 'e', 'w', 'q']
+__a_e_
+What is your guess?
+l
+Looks like l is in my word!
+
+2 wrong guesses remaining
+Guesses: ['a', 'b', 'c', 'e', 'w', 'q', 'l']
+__a_el
+What is your guess?
+i
+i is not in my word!
+
+1 wrong guesses remaining
+Guesses: ['a', 'b', 'c', 'e', 'w', 'q', 'l', 'i']
+__a_el
+What is your guess?
+p
+p is not in my word!
+You lose! My word was "travel"

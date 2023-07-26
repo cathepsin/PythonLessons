@@ -1,0 +1,73 @@
+Let's play hangman! You get 6 wrong guesses
+My word is 6 characters long
+
+6 wrong guesses remaining
+Guesses: []
+______
+What is your guess?
+t
+Looks like t is in my word!
+
+6 wrong guesses remaining
+Guesses: ['t']
+t_____
+What is your guess?
+v
+Looks like v is in my word!
+
+6 wrong guesses remaining
+Guesses: ['t', 'v']
+t__v__
+What is your guess?
+w
+w is not in my word!
+
+5 wrong guesses remaining
+Guesses: ['t', 'v', 'w']
+t__v__
+What is your guess?
+a
+Looks like a is in my word!
+
+5 wrong guesses remaining
+Guesses: ['t', 'v', 'w', 'a']
+t_av__
+What is your guess?
+h
+h is not in my word!
+
+4 wrong guesses remaining
+Guesses: ['t', 'v', 'w', 'a', 'h']
+t_av__
+What is your guess?
+r
+Looks like r is in my word!
+
+4 wrong guesses remaining
+Guesses: ['t', 'v', 'w', 'a', 'h', 'r']
+trav__
+What is your guess?
+s
+s is not in my word!
+
+3 wrong guesses remaining
+Guesses: ['t', 'v', 'w', 'a', 'h', 'r', 's']
+trav__
+What is your guess?
+e
+Looks like e is in my word!
+
+3 wrong guesses remaining
+Guesses: ['t', 'v', 'w', 'a', 'h', 'r', 's', 'e']
+trave_
+What is your guess?
+n
+n is not in my word!
+
+2 wrong guesses remaining
+Guesses: ['t', 'v', 'w', 'a', 'h', 'r', 's', 'e', 'n']
+trave_
+What is your guess?
+l
+Looks like l is in my word!
+You win!
