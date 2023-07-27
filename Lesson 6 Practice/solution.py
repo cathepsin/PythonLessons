@@ -1,9 +1,17 @@
 import random
 
-def Hangman(number_of_wrong_guesses, seed=None):
+def Input(preset=None, index = 0):
+  if preset is None or index >= len(preset):
+    return input()
+  else:
+    print(preset[index])
+    return preset[index]
+
+def Hangman(number_of_wrong_guesses, seed=None, preset=None):
   if seed is not None:
     random.seed(seed)
   hidden_word = random_words[random.randrange(0,500)]
+  index = -1
 
   number_of_wrong_guesses = 6
   wrong_guesses = 0
@@ -14,8 +22,9 @@ def Hangman(number_of_wrong_guesses, seed=None):
   print(f"My word is {len(hidden_word)} characters long")
 
   guess = ""
-  current_word = ""
+  current_word = "_"*len(hidden_word)
   while wrong_guesses < number_of_wrong_guesses and current_word != hidden_word:
+    index += 1
     print()
     print(f"{number_of_wrong_guesses - wrong_guesses} wrong guesses remaining")
     print(f"Guesses: {guessed_characters}")
@@ -23,7 +32,7 @@ def Hangman(number_of_wrong_guesses, seed=None):
 
 
     print("What is your guess?")
-    guess = input()
+    guess = Input(preset=preset, index=index)
 
     if guess in guessed_characters:
       print(f"You already guessed {guess}")
