@@ -1,0 +1,3 @@
+Received DNA sequence: ABACAAAAABCA
+Translated AA sequence: TFZU
+Protein mass: 563.11
