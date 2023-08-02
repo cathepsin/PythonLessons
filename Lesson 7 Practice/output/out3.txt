@@ -1,1 +1,2 @@
-ABACAAAAABCX
+Received DNA sequence: ABACAAAAABCX
+Invalid Sequence
